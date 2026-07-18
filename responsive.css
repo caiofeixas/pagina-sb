@@ -1,0 +1,55 @@
+@media (max-width: 900px) {
+    .pods-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        max-width: 750px;
+    }
+
+    .content h1 {
+        font-size: 48px;
+    }
+
+    .produtos-section h2 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-attachment: scroll;
+    }
+
+    .logo-principal {
+        width: 250px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+    .pods-container {
+        grid-template-columns: 1fr;
+        padding: 35px 18px;
+    }
+
+    .pod-card img {
+        height: 240px;
+    }
+
+    .social-media {
+        flex-direction: column;
+    }
+
+    .social-media a,
+    .gmail-contact {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .gmail-contact span {
+        font-size: 13px;
+    }
+}
